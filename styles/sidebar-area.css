@@ -1,0 +1,29 @@
+.sidebar_body_section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebar, 
+.area {
+  height: 30vh;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 992px) {
+  .sidebar_body_section {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 30%;
+    height: 70vh;
+  }
+
+  .area {
+    width: 70%;
+    height: 70vh;
+  }
+}
