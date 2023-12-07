@@ -4,12 +4,12 @@
     align-items: center;
     gap: 2rem;
     margin-bottom: 1rem;
-    background-color: #000;
+    background-color: var(--primary-background-color);
     padding: 2rem;
   }
   
   .zizy {
-    color: #d5b736;
+    color: var(--active-color);
     font-size: 1.5rem;
     font-weight: 700;
   }
@@ -24,7 +24,7 @@
   
   .link-item {
     font-size: 1.2rem;
-    color: rgb(19, 19, 102);
+    color: var(--navbar-link-color);
     cursor: pointer;
   }
 

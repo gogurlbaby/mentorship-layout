@@ -1,11 +1,11 @@
 .footer {
-    background-color: #000;
+    background-color: var(--primary-background-color);
   }
   
   .footer-container {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 2rem;
   }
   
   .footer-logo {
@@ -13,14 +13,14 @@
   }
   
   .footer-text {
-    color: #fff;
+    color: var(--primary-text-color);
     margin-bottom: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
   }
   
   .follow {
-    color: #fff;
+    color: var(--primary-text-color);
     margin-bottom: 2rem;
     font-size: 1rem;
     font-weight: 500;
@@ -37,7 +37,7 @@
   }
   
   .sitemap-heading {
-    color: #d5b736;
+    color: var(--active-color);
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 600;
@@ -48,7 +48,7 @@
   }
   
   .sitemap-link {
-    color: #fff;
+    color: var(--primary-text-color);
     font-size: 1rem;
     font-weight: 500;
   }
@@ -58,14 +58,14 @@
   }
   
   .hours-heading {
-    color: #d5b736;
+    color: var(--active-color);
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 600;
   }
   
   .day {
-    color: #fff;
+    color: var(--primary-text-color);
     font-size: 1rem;
     margin-bottom: 2rem;
     font-weight: 500;
@@ -76,7 +76,7 @@
   }
   
   .location {
-    color: #d5b736;
+    color: var(--active-color);
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
@@ -87,7 +87,7 @@
   .number, 
   .email, 
   .email-address {
-    color: #fff;
+    color: var(--primary-text-color);
     font-size: 1rem;
     margin-bottom: 2rem;
     font-weight: 500;
@@ -105,7 +105,7 @@
   }
   
   .copyright {
-    color: #fff;
+    color: var(--primary-text-color);
     font-size: 1rem;
     font-weight: 500;
   }
@@ -118,7 +118,7 @@
   
   .terms, 
   .privacy {
-    color: #fff;
+    color: var(--primary-text-color);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;

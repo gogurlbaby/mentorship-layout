@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-background-color: #000;
+  --primary-text-color: #fff;
+  --active-color: #d5b736;
+  --navbar-link-color: rgb(19, 19, 102);
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
