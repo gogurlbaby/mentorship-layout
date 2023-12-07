@@ -4,51 +4,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/feather-icons"></script>
   <title>Zizy's Food Corner</title>
 </head>
 <body>
-  <div class="container">
+    <!-- LOGO and NAVIGATION -->
     <header>
       <div class="logo">
         <img src="./images/logo.jpg" alt="Logo" width="100" height="100">
+        <p class="zizy">ZIZY'S FOOD CORNER</p>
       </div>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="navbar-items">
+          <li><a class="link-item" href="#">Home</a></li>
+          <li><a class="link-item" href="#about">About</a></li>
+          <li><a class="link-item" href="#services">Services</a></li>
+          <li><a class="link-item" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-
+     <!-- HEADER/BANNER -->
     <section class="banner-section">
       <div class="banner-container">
         <div class="banner-text">
-          <h1>Welcome to Zizy's Food Corner</h1>
-          <p> 
-           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-           dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen 
-           book.
+          <h1 class="banner-heading">Welcome to Zizy's Food Corner</h1>
+          <p class="banner-paragraph"> 
+           Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+           <br/>
+           Lorem Ipsum has been the industry's standard 
+           dummy text ever since the 1500s.
           </p>
           <button type="button" class="banner-btn">Learn More</button>
         </div>
-
-        <div class="banner-image">
-          <img src="./images/side-view-pilaf-with-stewed-beef-meat-plate.jpg" alt="Banner Image" class="banner-img">
-        </div>
       </div>
     </section>
-
+     <!-- SIDEBAR/BODY AREA -->
     <section class="sidebar_body_section">
       <aside class="sidebar">
         <div>Sidebar</div>
       </aside>
       <div class="area">Body Area</div>
     </section>
+    <!-- FOOTER -->
     <footer class="footer">
-      <div>footer</div>
+      <div class="footer-container">
+        <div>
+          <img src="./images/logo.jpg" alt="Logo" width="100" height="100" class="footer-logo">
+          <p class="footer-text">Zizy's Food Corner</p>
+          <p class="follow">Follow us:</p>
+          <ul class="social-icons">
+            <li><a href=""><i data-feather="facebook" color="#d5b736"></i></a></li>
+            <li><a href=""><i data-feather="instagram" color="#d5b736"></i></a></i></li>
+            <li><a href=""><i data-feather="twitter" color="#d5b736"></i></a></i></li>
+            <li><a href=""><i data-feather="linkedin" color="#d5b736"></i></a></li>
+          </ul>
+        </div>
+        
+        <div class="contact-details">
+          <p class="location">Location:</p>
+          <p class="address">123 Main Street, Anytown, USA</p>
+          <p class="contact">Contact:</p>
+          <p class="number">(123) 456-7890</p>
+          <p class="email">Email:</p>
+          <p class="email-address">zizys_food_corner@gmail.com</p>
+        </div>
+
+        <div class="sitemap">
+          <h3 class="sitemap-heading">Sitemap</h3>
+          <ul class="sitemap-links">
+            <li class="sitemap-item"><a href="/" class="sitemap-link">Home</a></li>
+            <li class="sitemap-item"><a href="/about" class="sitemap-link">About</a></li>
+            <li class="sitemap-item"><a href="/services" class="sitemap-link">Services</a></li>
+            <li class="sitemap-item"><a href="/contact" class="sitemap-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="working-hours">
+          <h3 class="hours-heading">Working Hours</h3>
+          <p class="day">Tuesday: 9am - 9pm</p>
+          <p class="day">Wednesday: 9am - 9pm</p>
+          <p class="day">Thursday: 9am - 9pm</p>
+          <p class="day">Friday: 9am - 9pm</p>
+          <p class="day">Saturday: 9am - 9pm</p>
+          <p class="day">Sunday: 1pm - 9pm</p>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright-container">
+        <p class="copyright">Copyright © 2023, Zizy's Food Corner</p>
+        <div class="privacy-terms">
+          <a href="/terms" class="terms">Terms of Service</a>
+          <a href="/privacy" class="privacy">Privacy Policy</a>
+        </div>
+      </div>
     </footer>
-  </div>
+
+    <script>
+      feather.replace();
+    </script>
 </body>
 </html>
