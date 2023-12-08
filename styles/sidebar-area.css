@@ -68,21 +68,11 @@
     flex-direction: row;
   }
 
-  .sidebar {
-   
-  }
-
   .area {
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 2rem;
    padding: 4rem 2.5rem;
-  }
-
-  .breakfast-meal,
-  .lunch-meal,
-  .dinner-meal {
-    /* width: 100%; */
   }
 }
