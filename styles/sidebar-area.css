@@ -1,15 +1,66 @@
 .sidebar_body_section {
-  background-color: #fff;
+  background-color: var(--primary-text-color);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 
-.sidebar, 
 .area {
-  height: 30vh;
-  background-color: grey;
-  border: 1px solid black;
+  background-color: var(--primary-text-color);
+  border: 1px solid  var(--primary-text-color);
+}
+
+.sidebar {
+  background-color: var(--active-color);
+  border: 1px solid var(--active-color);
+}
+
+.area {
+  padding: 2rem 1rem;
+}
+
+.sidebar-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.sidebar {
+  padding: 2rem 8rem;
+}
+
+.breakfast,
+.lunch,
+.dinner {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-text-color);
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.meal-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--active-color);
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: var(--active-color);
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.breakfast-meal,
+.lunch-meal,
+.dinner-meal {
+  width: 100%;
 }
 
 @media screen and (min-width: 992px) {
@@ -18,12 +69,20 @@
   }
 
   .sidebar {
-    width: 30%;
-    height: 70vh;
+   
   }
 
   .area {
-    width: 70%;
-    height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   padding: 4rem 2.5rem;
+  }
+
+  .breakfast-meal,
+  .lunch-meal,
+  .dinner-meal {
+    /* width: 100%; */
   }
 }
